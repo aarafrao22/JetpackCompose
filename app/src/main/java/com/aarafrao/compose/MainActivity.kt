@@ -78,8 +78,8 @@ fun MessageCard(msg: Message) {
 fun PreviewMessageCard() {
     MessageCard(
         msg = Message(
-            "Hey, take a look at Jetpack Compose",
-            "Android"
+            "Android",
+            "Hey, take a look at Jetpack Compose"
         )
     )
 }
